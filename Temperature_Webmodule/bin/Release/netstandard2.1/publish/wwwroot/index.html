@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Temperature Webmodule</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="_content/Radzen.Blazor/css/Software.css">
+    <link rel="stylesheet" href="_content/BlazorDateRangePicker/daterangepicker.min.css" />
+
+</head>
+
+<body>
+    <app>
+        <div style="padding-top: 12px;padding-left: 20px;padding-bottom: 12px;font-size: 30px;border: 1px solid rgba(0,0,0,.125);">
+            <strong>Loading...</strong>
+        </div>
+    </app>
+
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+    <script src="_content/BlazorDateRangePicker/clickAndPositionHandler.js"></script>
+
+    <!-- Reference the included moment.js javascript file. -->
+    <script src="_content/ChartJs.Blazor/moment-with-locales.min.js" type="text/javascript" language="javascript"></script>
+
+    <!-- Reference the included ChartJs javascript file. -->
+    <script src="_content/ChartJs.Blazor/Chart.min.js" type="text/javascript" language="javascript"></script>
+
+    <!-- This is the glue between the C# code and the ChartJs charts -->
+    <script src="_content/ChartJs.Blazor/ChartJsBlazorInterop.js" type="text/javascript" language="javascript"></script>
+
+    <!-- Some styling -->
+    <link rel="stylesheet" href="_content/ChartJs.Blazor/ChartJSBlazor.css" />
+   
+    
+    <script>
+        window.initializeCarousel = () => {
+            $('#carouselIndicators').carousel({ interval: false });
+
+            //see step 2 to understand these news id's:
+            $('#carouselIndicators-prev').click(
+                () => $('#carouselIndicators').carousel('prev'));
+            $('#carouselIndicators-next').click(
+                () => $('#carouselIndicators').carousel('next'));
+
+        };
+
+        window.waterTemperature = (latest, highest, lowest) => {
+
+            const units = {
+                Celcius: " °C",
+                Fahrenheit: " °F"
+            };
+
+            const config = {
+                minTemp: 2.0,
+                maxTemp: 50.0,
+                unit: "Celcius"
+            };
+
+            // Change temperature
+            const latestTemperature = document.getElementById("water-latestTemperature");
+            const highestTemperature = document.getElementById("water-highestTemperature");
+            const lowestTemperature = document.getElementById("water-lowestTemperature");
+
+            function setTemperature() {
+
+                latestTemperature.style.height = (latest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                latestTemperature.dataset.value = "Latest: " + latest + units[config.unit];
+
+                if (latest + 1 < highest) {
+                    highestTemperature.style.visibility = "visible"
+
+                    highestTemperature.style.height = (highest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                    highestTemperature.dataset.value = "Highest: " + highest + units[config.unit];
+                }
+                else {
+                    highestTemperature.style.visibility = "hidden";
+                }
+
+                console.log(lowestTemperature.dataset.value);
+                if (lowest < latest && lowest + 1 < highest) {
+                    lowestTemperature.style.visibility = "visible"
+
+                    lowestTemperature.style.height = (lowest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                    lowestTemperature.dataset.value = "Lowest: " + lowest + units[config.unit];
+                }
+                else {
+                    lowestTemperature.style.visibility = "hidden"
+                }
+
+            }
+
+            setTimeout(setTemperature, 1000);
+        }
+
+        window.airTemperature = (latest, highest, lowest) => {
+
+            const units = {
+                Celcius: " °C",
+                Fahrenheit: " °F"
+            };
+
+            const config = {
+                minTemp: 2.0,
+                maxTemp: 50.0,
+                unit: "Celcius"
+            };
+
+            // Change temperature
+
+            const latestTemperature = document.getElementById("air-latestTemperature");
+            const highestTemperature = document.getElementById("air-highestTemperature");
+            const lowestTemperature = document.getElementById("air-lowestTemperature");
+
+
+            function setTemperature() {
+                latestTemperature.style.height = (latest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                latestTemperature.dataset.value = "Latest: " + latest + units[config.unit];
+
+                if (latest + 1 < highest) {
+                    highestTemperature.style.visibility = "visible"
+
+                    highestTemperature.style.height = (highest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                    highestTemperature.dataset.value = "Highest: " + highest + units[config.unit];
+                }
+                else {
+                    highestTemperature.style.visibility = "hidden"
+                }
+
+
+                if (lowest < latest && lowest + 1 < highest) {
+                    lowestTemperature.style.visibility = "visible"
+
+                    lowestTemperature.style.height = (lowest - config.minTemp) / (config.maxTemp - config.minTemp) * 100.0 + "%";
+                    lowestTemperature.dataset.value = "Lowest: " + lowest + units[config.unit];
+                }
+                else {
+                    lowestTemperature.style.visibility = "hidden"
+                }
+            }
+
+            setTimeout(setTemperature, 1000);
+        }
+
+
+    </script>
+</body>
+
+</html>

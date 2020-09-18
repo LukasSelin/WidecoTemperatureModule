@@ -1,0 +1,46 @@
+﻿@namespace TemperatureModule.Webpage.Components.Slides.TableView
+
+@using TemperatureModule.Webpage.Models;
+
+<link rel="stylesheet" href="css/myown/TableView.css">
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Air temperature (°C)</th>
+                <th>Water temperature (°C)</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            @for (int i = unitData.Count() - 1; 0 < i; i -= 2)
+            {
+            <tr>
+                @if (unitData[0].DataDateTime.Date != unitData.Last().DataDateTime.Date)
+                {
+                    <td>@unitData[i].DataDateTime.ToShortTimeString() @unitData[i].DataDateTime.ToShortDateString()</td>
+                }
+                else
+                {
+                    <td>@unitData[i].DataDateTime.ToShortTimeString()</td>
+
+                }
+             
+                <td>@unitData[i-1].DataPTValue</td>
+                <td>@unitData[i].DataPTValue</td>
+                
+                
+            </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+@code {
+    [CascadingParameter]
+    public UnitData[] unitData { get; set; }
+}

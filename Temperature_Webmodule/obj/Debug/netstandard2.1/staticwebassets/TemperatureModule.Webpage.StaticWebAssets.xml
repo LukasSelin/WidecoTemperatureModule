@@ -1,0 +1,7 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="C:\Users\lukse\source\repos\TempraturModul\Temperature_Webmodule\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BlazorDateRangePicker" Path="C:\Users\lukse\.nuget\packages\blazordaterangepicker\2.9.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/ChartJs.Blazor" Path="C:\Users\lukse\.nuget\packages\chartjs.blazor\1.1.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\lukse\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.1\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\lukse\.nuget\packages\radzen.blazor\2.11.19\build\..\staticwebassets\" />
+</StaticWebAssets>

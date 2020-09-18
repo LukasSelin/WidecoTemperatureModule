@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/BlazorDateRangePicker" Path="C:\Users\lukse\.nuget\packages\blazordaterangepicker\2.9.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/ChartJs.Blazor" Path="C:\Users\lukse\.nuget\packages\chartjs.blazor\1.1.0\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\lukse\.nuget\packages\radzen.blazor\2.11.19\build\..\staticwebassets\" />
+</StaticWebAssets>

@@ -1,0 +1,35 @@
+﻿@namespace TemperatureModule.Webpage.Components.DataControllPanel.Dropdown
+
+@using TemperatureModule.Webpage.Models
+@using TemperatureModule.Webpage.HelpClasses
+@using BlazorDateRangePicker;
+
+
+<Dropdown TItem="string" OnSelected="@OnSelected">
+    <Tip>@Tip</Tip>
+    <ChildContent>
+        @foreach (var label in Filters)
+        {
+            <DropdownListItem Item="@label">@label</DropdownListItem>
+        }
+    </ChildContent>
+</Dropdown>
+
+@code {
+    [Parameter]
+    public List<string> Filters { get; set; }
+
+    [Parameter]
+    public string Tip { get; set; }
+
+    [Parameter]
+    public EventCallback<FilterEnum> SelectUpdated { get; set; }
+
+    public async Task OnSelected(string selection)
+    {
+        var filterEnum = FilterEnumHelper.GetFilterEnum(selection);
+
+        await SelectUpdated.InvokeAsync(filterEnum);
+        StateHasChanged();
+    }
+}

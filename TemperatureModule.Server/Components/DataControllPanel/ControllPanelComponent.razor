@@ -1,0 +1,59 @@
+﻿@namespace TemperatureModule.Webpage.Components.DataControllPanel
+@using TemperatureModule.Webpage.Models
+@using BlazorDateRangePicker
+@using TemperatureModule.Webpage.HelpClasses
+
+@using TemperatureModule.Webpage.Components.DataControllPanel.Dropdown
+
+<link rel="stylesheet" href="/css/myown/ControllPanel.css">
+
+<div class="controlPanel">
+
+    <h1>Lövekulle badplats</h1>
+
+    <div class="filter">
+        <DateRangePicker class="dateRangePicker" placeholder="@StartDate.GetValueOrDefault().DateTime.ToShortDateString()"
+                         ShowOnlyOneCalendar="true" StartDate="StartDate" EndDate="EndDate" OnRangeSelect="DateRangeUpdated" />
+        <div class="dropdown">
+            <DropdownFilterComponent Tip="@dropdownTip" Filters="filterList" SelectUpdated="FilterUpdated" />
+        </div>
+    </div>
+</div>
+@code {
+
+    [Parameter]
+    public EventCallback<DateRange> DateUpdated { get; set; }
+
+    public DateTimeOffset? StartDate { get; set; } = DateTime.Now;
+
+    public DateTimeOffset? EndDate { get; set; }
+
+    private List<string> filterList = new List<string> { "Today", "Yesterday", "3 days", "1 week", "2 weeks", "1 month", "3 months", "1 year" };
+
+    private string dropdownTip { get; set; }
+
+    public async Task FilterUpdated(FilterEnum filter)
+    {
+        dropdownTip = filterList[(int)filter];
+
+        var range = FilterEnumHelper.GetDateRange(filter);
+        StartDate = range.Start;
+        EndDate = range.End;
+
+        await DateUpdated.InvokeAsync(range);
+    }
+
+    public async Task DateRangeUpdated(DateRange range)
+    {
+        dropdownTip = "Custom date";
+        StartDate = range.Start;
+        EndDate = range.End;
+
+        await DateUpdated.InvokeAsync(range);
+    }
+
+    protected override void OnInitialized()
+    {
+        dropdownTip = filterList[0];
+    }
+}

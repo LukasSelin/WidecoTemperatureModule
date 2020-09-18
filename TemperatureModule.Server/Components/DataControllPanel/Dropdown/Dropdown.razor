@@ -1,0 +1,37 @@
+﻿@namespace TemperatureModule.Webpage.Components.DataControllPanel.Dropdown
+
+@typeparam TItem
+
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle dropdownTest" data-toggle="dropdown" type="button" @onclick="e => this.show=!this.show "
+            aria-haspopup="true" aria-expanded="false"
+            style="padding-top: 2px; height: 30px; background-color: #222823; border-color: #222823 ;color: #c5c6c7">
+        <span>@Tip</span>
+    </button>
+    <CascadingValue name="Dropdown" Value="@this">
+        <div class="dropdown-menu @(show? "show":"")">
+            @ChildContent
+        </div>
+    </CascadingValue>
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback<TItem> OnSelected { get; set; }
+
+    [Parameter]
+    public RenderFragment Tip { get; set; }
+
+    private bool show = false;
+
+    public async Task HandleSelect(TItem item, RenderFragment<TItem> contentFragment)
+    {
+        this.Tip = contentFragment.Invoke(item);
+        this.show = false;
+        StateHasChanged();
+        await this.OnSelected.InvokeAsync(item);
+    }
+}

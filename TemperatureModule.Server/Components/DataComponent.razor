@@ -1,0 +1,50 @@
+﻿@namespace TemperatureModule.Server.Components
+@using System.Linq
+@using TemperatureModule.Webpage.Datasource;
+@using TemperatureModule.Webpage.Models
+@using BlazorDateRangePicker; 
+
+@using TemperatureModule.Webpage.Components.DataControllPanel
+@using TemperatureModule.Webpage.Components.Slides
+
+@inject HttpClient client
+
+
+<link rel="stylesheet" href="css/myown/Data.css">
+@if(UnitData != null)
+{
+    <div class="data" style="display:flex; flex-direction:column;">
+        <ControllPanelComponent DateUpdated="DateUpdated"/>
+        <CarouselComponent UnitData="UnitData"></CarouselComponent>
+    </div>
+}
+else
+{
+    <div style="padding-top: 12px;padding-left: 20px;padding-bottom: 12px;font-size: 30px;border: 1px solid rgba(0,0,0,.125);">
+        <strong>Loading...</strong>
+    </div>
+}
+
+@code {
+    public UnitData[] UnitData { get; set; }
+
+    private Datasource _datasource;
+
+    public async Task DateUpdated(DateRange dateRange)
+    {
+        UnitData = (await _datasource.GetDaysAsync(dateRange.Start.DateTime, dateRange.End.DateTime)).ToArray();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _datasource = new Datasource(client);
+            UnitData = (await _datasource.GetDayAsync(DateTime.Now)).ToArray();
+        }
+        catch (Exception e)
+        {
+            throw new Exception(e.Message);
+        }
+    }
+}

@@ -1,0 +1,234 @@
+{
+  "FilesToCompress": [
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\_R1kFCXR4664PvIdho2hwwsSsL0rGlUwIVDrtm2IC48=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\BlazorDateRangePicker.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/BlazorDateRangePicker.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\vUqP-cf4mLkQEEUU-8-tvZxH-BiLOTbpDX65kk1XU1A=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\ChartJs.Blazor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/ChartJs.Blazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SGtGBU-u3nWHNrElrqntc8oUKHEhpyT8bu8sEwB-D6U=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\-Q7bczsPUKUCVGPubJA8CeaKnLsrAw3ZNejeGOiQBEI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Forms.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\hbfdyXJgCZLYZRkjPOqfZATgkcwynkF1AwLMuorL-xI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\OJ_a5HiZbEcC74EBUmE4t1aG-zgUJtKL1uA89PqMgn8=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\WrqkYD6j1T5zrV4VG5Y38JTbWM6uOfFckSGWIrM36Rk=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.CSharp.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\4a3D1TQpsc04TPXBbPIvCGa8SYjCAf0ObTWda_bRjSI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3pV1T839bOK6bLtHJZdp5mYZ2yvJuOv8H_zo7TnDOSo=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\avmXRySLgWlGuP98ukhjJ9U3PTFGY0MztK2n7_48atE=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Configuration.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\KqckeeVvP1Kc0Lt1vGOMwiCn0Wp1ZiGjxCZP_WNSJO0=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\X-h5JspmxMa18FTPSTLk_Tgx2ME7vxMmW6nrgkNXQoI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\u4vvzbehWMExv4G3DCSrvKK5sI_tvQbbf0xEyPpQkuQ=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\lP5ygCax1Ss5aa8NuAiYyLuH04_aY8UTxoR-Bxlv0-o=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\r5DF2ASKUniDgGyO3n1CPDzr61U42leo6H-M7bdgL8k=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\VSWJZRLlopXnQd3OrXDiitZsUD9qis9ZJnhbBSwhXVY=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eaZG6YsghWo2fCflSEUAZFkHB6_da-HWrquthjUz3Xc=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Microsoft.JSInterop.WebAssembly.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2jw4-9l0EnbtJ3v5wM_avYqCGewdytqBExIwgsNHJB4=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Mono.Security.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Mono.Security.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\GFXI6ECx_Za59u-TjTQXcj--sZWopOwH8gXwm1SRrro=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\mscorlib.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UikYCyc6xHovNNcNq2RUoywlXdDP8ugGQZdVHmcuI3I=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\netstandard.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/netstandard.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Newtonsoft.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\TnVG0CGc_YnJMwHya6nKGampFo8PXRu9SzMAQecoAfs=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\Radzen.Blazor.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/Radzen.Blazor.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ENVOOcQ1vDxA3eeOY2YrxJoy1Rtn8jdWWkbLn7cKLDQ=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\2nKJW9p4n-GfQcE7T4wJupl8y7Yg5tivaYA1gbAzDDI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\Mo1WTq2XV4t7VxweVfcNt8FrnS7ODCr_tor3ftzfPoY=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Data.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mdo_8g8Fu_oLnc6vS-7cD7FcXwCl-Zi4wMeEixBA2HI=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\DWBJe2ZuhkqmrMfdEXs_Z-Tib2j8jzTbbTfgvO_JzWQ=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Drawing.Common.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Drawing.Common.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ef86OY44qpfyUdHI8EMmVGEuQtadljCC5hfAh501eTg=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Linq.Dynamic.Core.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Dynamic.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\FdD6iin-4mu_OUybIL1dryQarigEu1ya-YahzcEVIBA=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\PbSGeJtNRknVLDZPZ-anb88zHT7D26VtdoWhhRdD3hg=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Net.Http.WebAssemblyHttpHandler.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.WebAssemblyHttpHandler.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\ZVNHKaSySMxzkhh1vUhevFy_bIzCFoqjIjxdHsHweO4=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Numerics.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\hdaQAX-vfIkWNfzD8bYWv-UzusH5FH9kwwYRSSgZERw=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\PZqdbemwvDth_OmCR3lgq1hs9d45B6b0SuBC60AJg18=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Runtime.Serialization.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\I-Qbgp0NdPbmxyEwu37Kp_gmaKZyQpJpCcPv1a5ki9g=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\YUy-kVaevZXezROcij9jug6co3cdjsMZDWoi4P1k2No=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Text.Json.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\CYDhwpquCIsbxhkf094wATUnu2taBNHtLZxw3d8BY9E=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3TPCYav6fMQdjjlOQkGi8zUKRYlmS8hvlmV5XlKZrGs=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\System.Xml.Linq.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.Linq.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\CONcqMXzAMDEZ1d_Uexr9Kw9mdsaR5VxB5AMDz78N28=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\TemperatureModule.Webpage.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/TemperatureModule.Webpage.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\PPzMCG1tTvaDKuP0WMMJMoijnKzL7xn8VlK5uTfJTAc=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\linker\\WebAssembly.Bindings.dll",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Bindings.dll.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
+      "Source": "C:\\Users\\lukse\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.3.2.0.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.3.2.0.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash",
+      "Source": "C:\\Users\\lukse\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.timezones.dat",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.timezones.dat.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash",
+      "Source": "C:\\Users\\lukse\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.runtime\\3.2.0\\tools\\dotnetwasm\\wasm\\dotnet.wasm",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/wasm\/dotnet.wasm.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash",
+      "Source": "C:\\Users\\lukse\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.build\\3.2.1\\tools\\blazor\\blazor.webassembly.js",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
+    },
+    {
+      "InputSource": "obj\\Release\\netstandard2.1\\integrity\\eedyBOj3g_uVWIGWZi5sk1iGRDalbZubI5JGOw4Lrmc=.hash",
+      "Source": "C:\\Users\\lukse\\source\\repos\\TempraturModul\\Temperature_Webmodule\\obj\\Release\\netstandard2.1\\blazor\\blazor.boot.json",
+      "Target": "obj\\Release\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
+    }
+  ]
+}
